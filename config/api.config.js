@@ -4,18 +4,18 @@
  * - If you are a OneDrive International user, you would not have to change anything here.
  * - If you are not the admin of your OneDrive for Business account, you may need to define your own clientId/clientSecret,
  *   check documentation for more details.
- * - If you are using a E5 Subscription OneDrive for Business account, the direct links of your files are not the same here.
+ * - If you are using an E5 Subscription OneDrive for Business account, the direct links of your files are not the same here.
  *   In which case you would need to change directLinkRegex.
  */
 module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
-  clientId: 'f23f9918-14a5-46f1-9f74-13e57273b8f3',
-  obfuscatedClientSecret: 'U2FsdGVkX1+KTcEqbSzjTc6JqT+Q4m7PE2Rck4gYUIJSsIc5FPh8SsewBIUGv0yz5/amN8Lgh2uMenN1x4WYLg==',
+  clientId: '28cccee3-e244-485d-8501-e0a0b1bb8d19',
+  obfuscatedClientSecret: 'U2FsdGVkX1830zo3/pFDqaBCVBb37iLw3WnBDWGF9GIB2f4apzv0roemp8Y+iIxI3Ih5ecyukqELQEGzZlYiWg==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
-  redirectUri: 'http://localhost',
+  redirectUri: 'https://msft.globalvisionsupport.org/',
 
   // These are the URLs of the OneDrive API endpoints. You would not need to change anything here if you are using OneDrive International
   // or E5 Subscription OneDrive for Business. You may need to change these if you are using OneDrive 世纪互联.
